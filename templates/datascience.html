@@ -1,0 +1,76 @@
+
+{% extends 'index.html' %}
+{% load static %}
+{% block banner %}
+
+    <section class="banner_area">
+            <div class="banner_inner d-flex align-items-center">
+            	<div class="overlay bg-parallax" data-stellar-ratio="0.9" data-stellar-vertical-offset="0" data-background=""></div>
+				<div class="container">
+					<div class="banner_content text-center">
+						<h2>Data Science and Machine Learning</h2>
+						<div class="page_link">
+							<a href="index.html">Home</a>
+							<a href="about-us.html">About Us</a>
+						</div>
+					</div>
+				</div>
+            </div>
+        </section>
+
+{% endblock %}
+
+
+
+
+
+        <!--================Courses Area =================-->
+    {% block course %}
+
+
+    <div class="container">
+    <div class="row">
+<div class="col-md-9">
+    <p class="text-justify">
+        This is a comprehensive online instructor led course that prepares you for various skillsets required in a Data Scientist profile that include Statistics, Tools and Business Skills. It covers entire data science pipeline from Data gathering, Data Manipulation, Exploratory Data Analysis, Model Planning, Model Building, Machine Learning algorithms and Data Visualization using tools like Python, Excel, Tableau and SQL.
+    </p>
+
+</div>
+        <div class="enq-form-bg col-md-3">
+        <form>
+<input type="text">
+
+
+        </form>
+
+
+
+        </div>
+
+
+    </div>
+    </div>
+
+    {% endblock %}
+        <!--================End Courses Area =================-->
+
+        <!--================Team Area =================-->
+       {% block team %}
+
+    {% endblock %}
+        <!--================End Team Area =================-->
+
+        <!--================Testimonials Area =================-->
+    {% block testimonials %}
+
+    {% endblock %}
+        <!--================End Testimonials Area =================-->
+
+        <!--================Pagkages Area =================-->
+      {% block package %}
+
+
+    {% endblock %}
+
+        <!--================End Impress Area =================-->
+
