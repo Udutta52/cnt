@@ -252,12 +252,20 @@
       <workItem from="1568657061141" duration="2932000" />
       <workItem from="1568872872183" duration="1297000" />
       <workItem from="1569649211020" duration="3744000" />
+<<<<<<< HEAD
       <workItem from="1569664903929" duration="3273000" />
+=======
+      <workItem from="1569664903929" duration="2034000" />
+>>>>>>> 7112d45a94fd9ab89745a4e4a13b01b14e5a8493
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="43168000" />
+=======
+    <option name="totallyTimeSpent" value="41929000" />
+>>>>>>> 7112d45a94fd9ab89745a4e4a13b01b14e5a8493
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
